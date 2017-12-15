@@ -20,8 +20,32 @@ b{
 	font-style: normal;
 }
 
+p[epub|type~="z3998:stage-direction"]{
+	text-align: center;
+	text-indent: 0;
+}
+
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
+}
+
+table{
+	width: 100%;
+}
+
+td[epub|type~="z3998:persona"]{
+	text-align: right;
+	width: 30%;
+}
+
+td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+td p{
+	text-indent: 0;
+	margin-bottom: 0.5em;
 }
 
 [epub|type~="epigraph"]{
