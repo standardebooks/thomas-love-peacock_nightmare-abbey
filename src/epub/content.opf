@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-love-peacock/nightmare-abbey</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-12-20T21:11:54Z</dc:date>
+		<meta property="dcterms:modified">2017-12-20T21:11:54Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -27,7 +27,7 @@
 		<dc:description id="description">A comic parody of the gothic movement in early nineteenth-century British literature</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Nightmare Abbey&lt;/i&gt;, rather like Jane Austen’s similarly named novel &lt;i&gt;Northanger Abbey&lt;/i&gt; which was written earlier but published at about the same time, is a gentle satire of the then-popular gothic movement in literature.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Nightmare Abbey&lt;/i&gt;, rather like Jane Austen’s similarly-named novel &lt;i&gt;Northanger Abbey&lt;/i&gt; which was written earlier but published at about the same time, is a gentle satire of the then-popular gothic movement in literature.&lt;/p&gt;
 			&lt;p&gt;Young Scythrop is the only son of Mr. Glowry, living in the semi-ruined Nightmare Abbey on his estate in Lincolnshire. Mr. Glowry, the survivor of a miserable marriage, is addicted to the depressing and the morbid, surrounding himself with servants whose names such as Raven, Graves and Skellet reflect his obsessions. His friends, also, are chosen from those who best reflect his misanthropic views.&lt;/p&gt;
 			&lt;p&gt;Scythrop himself imagines himself a philosopher with a unique view of the world, and to this end has written a treatise titled “Philosophical Gas; or, a Project for a General Illumination of the Human Mind.” Only seven copies of this treatise have ever been sold, and Scythrop dreams of being united with one of the buyers. His passions, though, become more earthy when he is introduced to his cousin Marionetta, who comes to stay at the Abbey for some weeks. He falls passionately in love, but she teases him with pretended waxing and waning interest in his advances. Mr. Glowry is furious as Scythrop’s love for Marionetta overturns his plans for Scythrop to marry the daughter of his friend Mr. Toobad.&lt;/p&gt;
 			&lt;p&gt;Things take a turn for the worse when a mysterious woman appears in Scythrop’s appartment and begs him for asylum. She tells him to call her “Stella” and reveals that she is one of the purchasers of Scythop’s treatise. He hides her away in a secret compartment, and falls in love with her, too, creating a situation of romantic farce as he cannot decide between Stella and Marionetta.&lt;/p&gt;
@@ -37,8 +37,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9909</dc:source>
 		<meta property="se:production-notes">There are several passages of conversational dialog which the author has treated as though they were part of a play, complete with stage-directions. I have therefore formatted these sections to match other SE works which are explictly plays. They differ somewhat in layout from that of the page-scans for that reason.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">26835</meta>
+		<meta property="se:reading-ease.flesch">61.06</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nightmare_Abbey</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-love-peacock_nightmare-abbey</meta>
 		<dc:creator id="author">Thomas Love Peacock</dc:creator>
@@ -70,6 +70,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
