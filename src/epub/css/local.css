@@ -14,12 +14,12 @@ b{
 	font-style: italic;
 }
 
-[epub|type~="z3998:stage-direction"]:before{
+[epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
 }
 
-[epub|type~="z3998:stage-direction"]:after{
+[epub|type~="z3998:stage-direction"]::after{
 	content: ")";
 	font-style: normal;
 }
@@ -46,6 +46,25 @@ td p{
 	text-indent: 0;
 }
 
+#epigraph{
+	text-align: center;
+	margin-top: 3em;
+}
+
+#epigraph [epub|type~="z3998:persona"]{
+	width: auto;
+}
+
+[epub|type~="epigraph"] + [epub|type~="epigraph"]::before{
+	content: '';
+	display: block;
+	border: none;
+	border-top: 1px solid;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -54,6 +73,10 @@ td p{
 	text-align: left;
 	text-indent: 0;
 	display: inline-block;
+}
+
+[epub|type~="epigraph"]{
+	margin-bottom: 0;
 }
 
 [epub|type~="epigraph"] i{
@@ -97,7 +120,6 @@ td p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:scene"] p{
-	text-align: left;
-	text-indent: 0;
+[epub|type~="epigraph"] [epub|type~="z3998:persona"] p{
+	font-style: normal;
 }
