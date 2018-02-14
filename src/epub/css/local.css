@@ -37,13 +37,14 @@ footer{
 	font-variant: all-small-caps;
 }
 
-table{
-	width: 100%;
-}
-
 td[epub|type~="z3998:persona"]{
 	text-align: right;
-	width: 30%;
+	white-space: nowrap;
+}
+
+td[epub|type~="z3998:persona"].long{
+	white-space: normal;
+	hyphens: none;
 }
 
 td{
