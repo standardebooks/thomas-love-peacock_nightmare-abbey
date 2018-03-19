@@ -47,6 +47,10 @@ td[epub|type~="z3998:persona"].long{
 	hyphens: none;
 }
 
+table{
+	border-collapse: collapse;
+}
+
 td{
 	vertical-align: top;
 	padding: .5em;
@@ -54,6 +58,10 @@ td{
 
 td p{
 	text-indent: 0;
+}
+
+table + p{
+	margin-top: .5em; /* plus .5em padding on previous cell makes 1em */
 }
 
 #epigraph{
