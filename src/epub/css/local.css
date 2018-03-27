@@ -54,8 +54,7 @@ footer{
 	text-indent: 0;
 }
 
-table[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
+table[epub|type~="z3998:drama"]{
 	margin: 1em auto;
 	width: 100%;
 }
