@@ -26,16 +26,17 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Nightmare Abbey</dc:title>
 		<meta property="file-as" refines="#title">Nightmare Abbey</meta>
 		<dc:subject id="subject-1">Humorous stories</dc:subject>
 		<dc:subject id="subject-2">Gothic fiction (Literary genre)</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/9909</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/9909</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85062975</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008020084</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A comic parody of the gothic movement in early nineteenth-century British literature</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Published in 1818, Peacock’s novella &lt;i&gt;Nightmare Abbey&lt;/i&gt; is a gentle satire of the then-popular gothic movement in literature. He pokes fun at the genre’s obsessions and most of the book’s characters are caricatures of well-known personages of the time.&lt;/p&gt;
 			&lt;p&gt;Young Scythrop is the only son of Mr. Glowry, living in the semi-ruined Nightmare Abbey on his estate in Lincolnshire. Mr. Glowry, the survivor of a miserable marriage, is addicted to the depressing and the morbid, surrounding himself with servants whose names, such as Raven, Graves and Skellet, reflect his obsessions. His friends, also, are chosen from those who best reflect his misanthropic views.&lt;/p&gt;
@@ -43,7 +44,6 @@
 			&lt;p&gt;These events are interleaved beween entertaining discussions among the varied guests at Nightmare Abbey, richly filled with humor, allusions and quotation.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Nightmare Abbey&lt;/i&gt; is probably Peacock’s most successful work of fiction, and helped establish his position as an important satirist of his times. His satire, though, is light-hearted rather than savage and is directed more at foolish opinions than attacking particular persons.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9909</dc:source>
 		<dc:source>https://archive.org/details/headlonghallnigh00peacuoft</dc:source>
