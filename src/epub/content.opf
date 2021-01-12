@@ -48,7 +48,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/9909</dc:source>
 		<dc:source>https://archive.org/details/headlonghallnigh00peacuoft</dc:source>
 		<meta property="se:production-notes">There are several passages of conversational dialog which the author has treated as though they were part of a play, complete with stage-directions. I have therefore formatted these sections to match other SE works which are explictly plays. They differ somewhat in layout from that of the page-scans for that reason.</meta>
-		<meta property="se:word-count">26496</meta>
+		<meta property="se:word-count">26495</meta>
 		<meta property="se:reading-ease.flesch">60.45</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nightmare_Abbey</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-love-peacock_nightmare-abbey</meta>
