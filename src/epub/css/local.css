@@ -10,8 +10,10 @@ footer{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:drama"]{
+table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
@@ -40,11 +42,6 @@ footer{
 	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
-}
-
-table[epub|type~="z3998:drama"]{
-	margin: 1em auto;
-	width: 100%;
 }
 
 [epub|type~="z3998:stage-direction"]{
