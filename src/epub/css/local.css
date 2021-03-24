@@ -48,6 +48,10 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
+[epub|type~="epigraph"] [epub|type~="z3998:persona"]{
+	font-style: normal;
+}
+
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
