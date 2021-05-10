@@ -40,7 +40,7 @@
 		<meta id="collection-1" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">9</meta>
-		<dc:description id="description">A comic parody of the gothic movement in early nineteenth-century British literature</dc:description>
+		<dc:description id="description">A comic parody of the gothic movement in early nineteenth-century British literature.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Published in 1818, &lt;a href="https://standardebooks.org/ebooks/thomas-love-peacock"&gt;Peacock’s&lt;/a&gt; novella &lt;i&gt;Nightmare Abbey&lt;/i&gt; is a gentle satire of the then-popular gothic movement in literature. He pokes fun at the genre’s obsessions and most of the book’s characters are caricatures of well-known personages of the time.&lt;/p&gt;
 			&lt;p&gt;Young Scythrop is the only son of &lt;abbr&gt;Mr.&lt;/abbr&gt; Glowry, living in the semi-ruined Nightmare Abbey on his estate in Lincolnshire. &lt;abbr&gt;Mr.&lt;/abbr&gt; Glowry, the survivor of a miserable marriage, is addicted to the depressing and the morbid, surrounding himself with servants whose names, such as Raven, Graves and Skellet, reflect his obsessions. His friends, also, are chosen from those who best reflect his misanthropic views.&lt;/p&gt;
