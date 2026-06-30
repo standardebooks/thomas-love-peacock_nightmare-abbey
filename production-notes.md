@@ -1,0 +1,1 @@
+There are several passages of conversational dialog which the author has treated as though they were part of a play, complete with stage-directions. I have therefore formatted these sections to match other SE works which are explictly plays. They differ somewhat in layout from that of the page-scans for that reason.
