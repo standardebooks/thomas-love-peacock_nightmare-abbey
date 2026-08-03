@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-love-peacock/nightmare-abbey</dc:identifier>
 		<dc:date>2017-12-20T21:11:54Z</dc:date>
@@ -43,14 +43,14 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">11</meta>
-		<dc:description id="description">A comic parody of the gothic movement in early nineteenth-century British literature.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A comic parody of the gothic movement in early nineteenth-century British literature.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Published in 1818, &lt;a href="https://standardebooks.org/ebooks/thomas-love-peacock"&gt;Peacock’s&lt;/a&gt; novella &lt;i&gt;Nightmare Abbey&lt;/i&gt; is a gentle satire of the then-popular gothic movement in literature. He pokes fun at the genre’s obsessions and most of the book’s characters are caricatures of well-known personages of the time.&lt;/p&gt;
 			&lt;p&gt;Young Scythrop is the only son of &lt;abbr&gt;Mr.&lt;/abbr&gt; Glowry, living in the semi-ruined Nightmare Abbey on his estate in Lincolnshire. &lt;abbr&gt;Mr.&lt;/abbr&gt; Glowry, the survivor of a miserable marriage, is addicted to the depressing and the morbid, surrounding himself with servants whose names, such as Raven, Graves and Skellet, reflect his obsessions. His friends, also, are chosen from those who best reflect his misanthropic views.&lt;/p&gt;
 			&lt;p&gt;Scythrop himself imagines himself a philosopher with a unique view of the world, and to this end has written a treatise titled “Philosophical Gas; or, a Project for a General Illumination of the Human Mind.” Only seven copies of this treatise have ever been sold, and Scythrop dreams of being united with one of the buyers. His passions, though, become more earthy when he falls in love both with his cousin Marionetta and then also with a mysterious woman who appears in his apartment and begs him for asylum, thus creating a situation of romantic farce as he tries to decide between the two.&lt;/p&gt;
 			&lt;p&gt;These events are interleaved between entertaining discussions among the varied guests at Nightmare Abbey, richly filled with humor, allusions and quotation.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Nightmare Abbey&lt;/i&gt; is probably Peacock’s most successful work of fiction, and helped establish his position as an important satirist of his times. His satire, though, is light-hearted rather than savage and is directed more at foolish opinions than attacking particular persons.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9909</dc:source>
 		<dc:source>https://archive.org/details/headlonghallnigh00peacuoft</dc:source>
